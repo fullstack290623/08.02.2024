@@ -1,6 +1,6 @@
 package com.company;
 
-public class RedLight extends TrafficLightColor {
+public class Red extends TrafficLightColor {
 
     @Override
     public TrafficLightColor change_color() {

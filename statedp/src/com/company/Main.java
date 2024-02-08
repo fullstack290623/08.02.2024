@@ -25,7 +25,7 @@ public class Main {
         // pass in green - counter++
         // pass in flashinggreen - counter--
 
-        TrafficLight trafficLight = new TrafficLight(new RedLight());
+        TrafficLight trafficLight = new TrafficLight(new Red());
         trafficLight.car_passed();
         trafficLight.changeColor();
         trafficLight.car_passed();
